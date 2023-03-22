@@ -1,4 +1,4 @@
-name: build
+name: build-parcel
 run-name: building ${{ github.actor }} commit
 on: [push]
 

@@ -1,4 +1,4 @@
-name: build
+name: test-jest
 run-name: testing ${{ github.actor }} commit
 on: [push]
 
