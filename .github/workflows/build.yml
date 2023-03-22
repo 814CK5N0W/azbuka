@@ -18,7 +18,7 @@ jobs:
 
     - name: Build
       run: |
-        npm ci
+        npm install
         npm run build
 
   test:
@@ -37,7 +37,7 @@ jobs:
 
     - name: Test
       run: |
-        npm ci
+        npm install
         npm run test
     
     - name: Upload coverage reports to Codecov
