@@ -1,14 +1,14 @@
 # Данный репозиторий представляет собой азбуку
 
-![](https://img.shields.io/github/commit-activity/w/blacksnow2k/azbuka?color=white&label=%D0%90%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2&logo=github)
+![Активность коммитов](https://img.shields.io/github/commit-activity/w/blacksnow2k/azbuka?color=white&label=%D0%90%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2&logo=github)
 
 ## CI
 
 [![codecov](https://codecov.io/gh/blacksnow2k/azbuka/branch/master/graph/badge.svg?token=5OJJH9IMOY)](https://codecov.io/gh/blacksnow2k/azbuka)
 
-[![codecov](https://img.shields.io/github/actions/workflow/status/blacksnow2k/azbuka/build.yml?branch=master&color=white&label=Jest%20in%20github%20Actons&logo=jest&logoColor=black&style=social)](https://github.com/blacksnow2k/azbuka/actions/workflows/build.yml)
+[![build GH Actions](https://img.shields.io/github/actions/workflow/status/blacksnow2k/azbuka/build.yml?branch=master&color=white&label=Parcel%20build%20in%20github%20Actons&logo=webpack&logoColor=black&style=social)](https://github.com/blacksnow2k/azbuka/actions/workflows/build.yml)
 
-[![codecov](https://img.shields.io/github/actions/workflow/status/blacksnow2k/azbuka/test.yml?branch=master&color=white&label=Jest&logo=jest&logoColor=black&style=social)](https://github.com/blacksnow2k/azbuka/actions/workflows/test.yml)
+[![test GH Actions](https://img.shields.io/github/actions/workflow/status/blacksnow2k/azbuka/build.yml?branch=master&color=white&label=Jest%20in%20github%20Actons&logo=jest&logoColor=black&style=social)](https://github.com/blacksnow2k/azbuka/actions/workflows/test.yml)
 
 ## CD
 
