@@ -4,7 +4,20 @@
   "description": "представляет собой азбуку",
   "main": "az.js",
   "scripts": {
-    "test": "test"
+    "start": "parcel source/index.html",
+    "test": "jest",
+    "lint": "eslint",
+    "check": "tsc --noEmit",
+    "build": "parcel build <your entry file>",
+    "ci": "npm build && npm test && npm lint && npm check"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "collectCoverage": true,
+    "coverageReporters": [
+        "text",
+        "cobertura"
+    ]
   },
   "repository": {
     "type": "git",
@@ -20,5 +33,17 @@
   "bugs": {
     "url": "https://github.com/blacksnow2k/azbuka/issues"
   },
-  "homepage": "https://github.com/blacksnow2k/azbuka#readme"
+  "homepage": "https://github.com/blacksnow2k/azbuka#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "parcel": "^2.8.3",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "types": "dist/index.d.ts"
 }

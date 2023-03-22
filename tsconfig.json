@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "module": "es6",
+      "target": "es2017",
+      "moduleResolution": "node",
+      "jsxFactory": "AzbukaVDom.jsxFactory",
+      "allowJs": true,
+      "outDir": "./dist",
+      "baseUrl": "source",
+      "paths" : {
+        "jsx/*": [
+          "jsx/*"
+        ]
+      }
+    }
+}
