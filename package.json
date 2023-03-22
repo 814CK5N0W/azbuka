@@ -1,0 +1,24 @@
+{
+  "name": "azbooka",
+  "version": "0.0.3",
+  "description": "представляет собой азбуку",
+  "main": "az.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacksnow2k/azbuka.git"
+  },
+  "keywords": [
+    "azbuka",
+    "alphabet",
+    "symbols"
+  ],
+  "author": "Leonid Perlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blacksnow2k/azbuka/issues"
+  },
+  "homepage": "https://github.com/blacksnow2k/azbuka#readme"
+}
