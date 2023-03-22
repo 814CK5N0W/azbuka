@@ -1,5 +1,5 @@
 name: build
-run-name: ${{ github.actor }} pushed
+run-name: building ${{ github.actor }} commit
 on: [push]
 
 jobs:
