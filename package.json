@@ -8,7 +8,7 @@
     "test": "jest",
     "lint": "eslint",
     "check": "tsc --noEmit",
-    "build": "parcel build <your entry file>",
+    "build": "parcel build source/index.html",
     "ci": "npm build && npm test && npm lint && npm check"
   },
   "jest": {
