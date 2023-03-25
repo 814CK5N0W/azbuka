@@ -1,0 +1,8 @@
+body {
+    min-height: -webkit-fill-available;
+}
+
+html {
+    min-height: -webkit-fill-available;
+    padding-left: env(safe-area-inset-left);
+}

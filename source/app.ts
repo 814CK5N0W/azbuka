@@ -1,5 +1,5 @@
 console.log('testing')
 
-let a: String = 'aaa'
+// let a: String = 'aaa'
 
-alert(a);
+// alert(a);
