@@ -1,4 +1,4 @@
-name: build-parcel
+name: parcel-jest
 run-name: building ${{ github.actor }} commit
 on: [push]
 
@@ -28,6 +28,29 @@ jobs:
         with:
           name: build
           path: |
-            build.zip
+            ./dist
+            ./release.zip
+          
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+      
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Test
+        run: |
+          npm install
+          npm run test
+      
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
 
   
