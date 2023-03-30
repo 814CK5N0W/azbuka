@@ -21,5 +21,13 @@ jobs:
         run: |
           npm install
           npm run build
+      - name: Zip build for deployment
+        run: zip release.zip ./dist/* -r
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: |
+            build.zip
 
   
